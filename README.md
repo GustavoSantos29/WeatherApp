@@ -5,7 +5,7 @@
 A project that uses HTML, CSS, JS, and an external API to check the weather conditions of cities around the world.
 It also uses a second API to find the flags of the countries.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - HTML
 - CSS
