@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  background: linear-gradient(180deg, #336ed3 0%, #a3d4ee 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body i{
+  font-size: 1.3rem;
+}
+
+.hide {
+  display: none;
+}
+
+.main {
+  background-color: #191f5e;
+  box-shadow: rgba(0, 0, 0, 0.24) 5px 10px 10px;
+  border-radius: 1rem;
+  padding: 2rem;
+  color: #fdfdfd;
+}
+
+/* Form */
+
+.form h2 {
+  margin-bottom: 2rem;
+}
+
+.form-input-container {
+  display: flex;
+}
+
+.form input {
+  padding: 0.8rem;
+  border: none;
+  flex: 1;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+.form button {
+  padding: 0.8rem;
+  min-width: 50px;
+  margin-left: 8px;
+  background-color: #74bae0;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 50px;
+  transition: scale ease 150ms;
+}
+
+.form button:hover {
+  scale: 1.05;
+  background-color: #ffffff;
+  color: #74bae0;
+}
+
+/* CLima */
+
+#weather-data {
+  border-top: 1px solid #ffffff;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  text-align: center;
+}
+
+#weather-data h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+
+#weather-data h2 i {
+  font-size: 2rem;
+}
+
+#weather-data span {
+  margin: 0.6rem;
+}
+
+#weather-data #temperature{
+  font-size: 2rem;
+}
+
+#country {
+  height: 40px;
+  border-radius: 15px;
+}
+
+#description-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.6rem 0;
+}
+
+#description {
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+#details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#details-container #humidity {
+  border-right: 1px solid #ffffff;
+  margin: 0.6rem;
+  padding: 0.6rem;
+}
+
+
+#error-container{
+  padding-top: 1.6rem;
+  font-weight: 700;
+  font-style: bold;
+}
