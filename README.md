@@ -28,7 +28,7 @@ View the flags of the corresponding countries.
 
 
 
-# Portugues
+# Português
 
 Um projeto que utiliza HTML, CSS, JS e uma API externa para verificar as condições climáticas de cidades ao redor do mundo.
 Também utiliza uma segunda API para encontrar as bandeiras dos países.
