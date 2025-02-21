@@ -57,9 +57,7 @@ const showWeather = async (city) => {
     weatherContainer.classList.remove("hide");
     errorContainer.classList.add("hide");
   } catch (error) {
-    console.log("deu erro", error);
     errorElement.innerText = error.message;
-    console.log(error.innerText);
     errorContainer.classList.remove("hide");
     weatherContainer.classList.add("hide");
   }
