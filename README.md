@@ -1,6 +1,6 @@
 # Weather App
 
-# English <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_oaf_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png">
+# English
 
 A project that uses HTML, CSS, JS, and an external API to check the weather conditions of cities around the world.
 It also uses a second API to find the flags of the countries.
@@ -28,7 +28,7 @@ View the flags of the corresponding countries.
 
 
 
-# Portugues <img src="https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiragrande.jpg">
+# Portugues
 
 Um projeto que utiliza HTML, CSS, JS e uma API externa para verificar as condições climáticas de cidades ao redor do mundo.
 Também utiliza uma segunda API para encontrar as bandeiras dos países.
